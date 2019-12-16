@@ -5,4 +5,12 @@ html, body {
 
 section {
     margin-top: 10px;
+}    
+
+p::before {
+    content: "Once upon a time ...";
+}
+
+p::after {
+    content: "...The end.";
 }
