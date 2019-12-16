@@ -1,8 +1,18 @@
 html, body {
     padding: 0;
     margin: 0;
+    background-color: paleturquoise;
 }
 
 section {
     margin-top: 10px;
+    border: 5px solid pink;
+}
+
+section .task-two {
+    background-image: url(assets/beach.jpg);   
+}
+
+img {
+    clip-path: polygon(50% 0%, 100% 49%, 51% 100%, 0% 50%);
 }
