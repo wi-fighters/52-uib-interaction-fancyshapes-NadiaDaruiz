@@ -6,3 +6,7 @@ html, body {
 section {
     margin-top: 10px;
 }
+
+.task-three {
+    transform: rotate(180deg);
+}
